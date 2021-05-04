@@ -1,0 +1,111 @@
+
+.all {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+}
+.back {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-align-content: space-around;
+	        align-content: space-around;
+}
+.backhome {
+	text-align: start;
+}
+.backmine {
+	text-align: end;
+}
+.title {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+}
+.article-title {
+	text-align: start;
+}
+.author {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-align-content: space-around;
+	        align-content: space-around;
+}
+.photo {
+	background-image: ;
+}
+.name {
+	background-color: #007AFF;
+}
+.time {
+	background-color: grey;
+}
+
+/*作者用户*/
+.container {
+	text-align: left;
+	font-size: 28rpx;
+	color: $u-content-color;
+}
+.userinfo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.userinfo-avatar {
+	width: 128rpx;
+	height: 128rpx;
+	margin: 20rpx;
+	border-radius: 50%;
+}
+.lists {
+	margin: 10px 0;
+}
+
+/*评论*/
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 20rpx;
+}
+image {
+	width: 120rpx;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 120rpx;
+	        flex: 0 0 120rpx;
+	height: 120rpx;
+	margin-right: 20rpx;
+	border-radius: 12rpx;
+}
+.title {
+	text-align: left;
+	font-size: 28rpx;
+	color: $u-content-color;
+	margin-top: 20rpx;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "主页",
+  "usingComponents": {
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

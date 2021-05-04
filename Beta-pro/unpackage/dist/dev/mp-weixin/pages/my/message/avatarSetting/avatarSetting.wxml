@@ -1,0 +1,1 @@
+<view class="root"><view class="windows-top"><u-avatar vue-id="7b01a279-1" src="{{src}}" mode="square" size="200" bind:__l="__l"></u-avatar><view><text style="color:grey;">点击头像上传照片</text></view></view><view class="windows-mid"><view class="form-see"><view><text>注意事项</text></view></view></view></view>

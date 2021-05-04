@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "写信",
+  "usingComponents": {
+    "u-field": "/node-modules/uview-ui/components/u-field/u-field",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "jin-edit": "/components/jin-edit/jin-edit"
+  }
+}

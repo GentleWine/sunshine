@@ -1,0 +1,153 @@
+.all{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	min-height: 100vh;
+	background-color: #F7F6EE;
+	-webkit-align-content: space-around;
+	        align-content: space-around;
+	-webkit-align-self: flex-end;
+	        align-self: flex-end;
+}
+
+/*顶部样式title*/
+.title{
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-flex:2;
+	-webkit-flex:2;
+	        flex:2;
+	background-color: rgba(206, 255, 206,1);
+}
+
+/*主题样式total*/
+.total{
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+	-webkit-box-flex: 12;
+	-webkit-flex: 12;
+	        flex: 12;
+	background-color: rgba(242, 242, 242,1);
+}
+
+/*底部样式indo*/
+.indo{
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-flex: 0.1;
+	-webkit-flex: 0.1;
+	        flex: 0.1;
+	max-height: 0.5vh;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	background-color: rgba(248, 248, 248,1);
+	color: rgba(118, 115, 115,1);
+	text-align: center;
+	font-family: Roboto;
+	border: 0.5vh solid rgba(248, 248, 248,1);
+}
+
+/*顶部图标-属性bgimg*/
+.bgimg{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	background-color: rgba(16, 16, 16,1);
+}
+
+/*顶部图标-活动in*/
+.in{
+	-webkit-box-flex: 2.5;
+	-webkit-flex: 2.5;
+	        flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+
+/*顶部图标-文章passage*/
+.passage{
+	-webkit-box-flex: 2.5;
+	-webkit-flex: 2.5;
+	        flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+
+/*顶部图标-订阅subscribe*/
+.subscribe{
+	-webkit-box-flex: 2.5;
+	-webkit-flex: 2.5;
+	        flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+
+/*顶部图标-搜索search*/
+.serach{
+	background-image: url(../../static/img/search.9515fc6c.svg);
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	background-color: rgba(16, 16, 16,1);
+}
+
+/*顶部空白*/
+.titleblank1{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.titleblank2{
+	-webkit-box-flex: 4;
+	-webkit-flex: 4;
+	        flex: 4;
+}
+.wrap {
+	padding: 24rpx;
+}
+.u-row {
+	margin: 40rpx 0;
+}
+.demo-layout {
+	height: 80rpx;
+	border-radius: 8rpx;
+}
+.bg-purple {
+	background: #d3dce6;
+}
+
+

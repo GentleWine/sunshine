@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/login/login",
+    "pages/hole/index",
+    "pages/regist/regist",
+    "pages/my/message/modifyInfo/modifyInfo",
+    "pages/issue/issue",
+    "pages/letter/writeLetter/writeLetter",
+    "pages/my/message/message/message",
+    "pages/my/my",
+    "pages/letter/docMessage/docMessage",
+    "pages/letter/makeAppoint/makeAppoint",
+    "pages/hole/MyHole/MyHole",
+    "pages/my/message/avatarSetting/avatarSetting",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/letter/letter",
+    "pages/home/article",
+    "pages/home/activity",
+    "pages/home/search",
+    "pages/home/authorpage",
+    "pages/hole/MyInfo/MyInfo",
+    "pages/my/collect/collect",
+    "pages/my/info/info",
+    "pages/my/enjoy/enjoy",
+    "pages/my/history/history",
+    "pages/my/subscribe/subscribe",
+    "pages/my/heartcondition/heartcondition",
+    "pages/hole/ariticle/article",
+    "pages/hole/ariticle/activity",
+    "pages/hole/ariticle/notice",
+    "pages/my/friend/friend",
+    "pages/my/set/set",
+    "pages/my/fans/fans"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tabbarLogo/shuben.png",
+        "selectedIconPath": "static/tabbarLogo/shuben.png"
+      },
+      {
+        "pagePath": "pages/hole/index",
+        "text": "树洞",
+        "iconPath": "static/tabbarLogo/soul.png",
+        "selectedIconPath": "static/tabbarLogo/soul.png"
+      },
+      {
+        "pagePath": "pages/issue/issue",
+        "text": "发布",
+        "iconPath": "static/tabbarLogo/jiahao.png",
+        "selectedIconPath": "static/tabbarLogo/jiahao.png"
+      },
+      {
+        "pagePath": "pages/letter/letter",
+        "text": "书信",
+        "iconPath": "static/tabbarLogo/xin.png",
+        "selectedIconPath": "static/tabbarLogo/xin.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人",
+        "iconPath": "static/tabbarLogo/my.png",
+        "selectedIconPath": "static/tabbarLogo/my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

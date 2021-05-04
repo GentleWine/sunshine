@@ -1,0 +1,222 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/test/test",
+			"style": {}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		},{
+			"path": "pages/hole/index",
+			"style": {
+				"navigationBarTitleText": "树洞"
+			}
+		},{
+			"path": "pages/regist/regist",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/my/message/modifyInfo/modifyInfo",
+			"style": {}
+		}, {
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "我有一壶酒，你有你的故事吗"
+			}
+		}, {
+			"path": "pages/letter/writeLetter/writeLetter",
+			"style": {
+				"navigationBarTitleText": "写信"
+			}
+		}, 
+		{
+			"path": "pages/my/message/message/message",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人"
+			}
+		}, {
+			"path": "pages/letter/docMessage/docMessage",
+			"style": {}
+		}, {
+			"path": "pages/letter/makeAppoint/makeAppoint",
+			"style": {}
+		},
+		{
+			"path": "pages/hole/MyHole/MyHole",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/message/avatarSetting/avatarSetting",
+			"style": {
+				"navigationBarTitleText": "头像设置"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/letter/letter",
+			"style": {
+				"navigationBarTitleText": "书信"
+			}
+		},
+		{
+			"path": "pages/home/article",
+			"style": {
+				"navigationBarTitleText": "文章"
+			}
+		},
+		{
+			"path": "pages/home/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/home/authorpage",
+			"style": {
+				"navigationBarTitleText": "作者页"
+			}
+		},
+
+		{
+			"path": "pages/hole/MyInfo/MyInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/my/collect/collect",
+			"style": {
+				"navigationBarTitleText": "收藏"
+
+			}
+		},
+		{
+			"path": "pages/my/info/info",
+			"style": {
+				"navigationBarTitleText": "文章"
+
+			}
+		},
+		{
+			"path": "pages/my/enjoy/enjoy",
+			"style": {
+				"navigationBarTitleText": "喜欢"
+
+			}
+		},
+		{
+			"path": "pages/my/history/history",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+
+			}
+		},
+		{
+			"path": "pages/my/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "订阅"
+
+			}
+		},
+		{
+			"path": "pages/my/heartcondition/heartcondition",
+			"style": {
+				"navigationBarTitleText": "健康状况"
+			}
+		}, {
+			"path": "pages/hole/ariticle/article",
+			"style": {}
+		}, {
+			"path": "pages/hole/ariticle/activity",
+			"style": {}
+		}, {
+			"path": "pages/hole/ariticle/notice",
+			"style": {}
+		}, {
+			"path": "pages/my/friend/friend",
+			"style": {}
+		}, {
+			"path": "pages/my/set/set",
+			"style": {}
+		}, {
+			"path": "pages/my/fans/fans",
+			"style": {}
+		}
+
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbarLogo/shuben.png",
+				"selectedIconPath": "static/tabbarLogo/shuben.png"
+			},
+			{
+				"pagePath": "pages/hole/index",
+				"text": "树洞",
+				"iconPath": "static/tabbarLogo/soul.png",
+				"selectedIconPath": "static/tabbarLogo/soul.png"
+			},
+			{
+				"pagePath": "pages/issue/issue",
+				"text": "发布",
+				"iconPath": "static/tabbarLogo/jiahao.png",
+				"selectedIconPath": "static/tabbarLogo/jiahao.png"
+			},
+			{
+				"pagePath": "pages/letter/letter",
+				"text": "书信",
+				"iconPath": "static/tabbarLogo/xin.png",
+				"selectedIconPath": "static/tabbarLogo/xin.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "个人",
+				"iconPath": "static/tabbarLogo/my.png",
+				"selectedIconPath": "static/tabbarLogo/my.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

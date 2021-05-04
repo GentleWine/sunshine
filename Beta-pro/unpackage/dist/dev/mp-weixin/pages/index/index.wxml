@@ -1,0 +1,1 @@
+<view class="content"><view class="_p">{{title}}</view><button data-event-opts="{{[['tap',[['goBack']]]]}}" bindtap="__e">goBack</button></view>

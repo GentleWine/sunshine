@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "头像设置",
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="container"><input class="title-input" placeholder="标题"/><jin-edit vue-id="35dcd18c-1" placeholder="请输入内容" uploadFileUrl="http://www.sunshine2020cc.cn/upload/img" data-event-opts="{{[['^editOk',[['editOk']]]]}}" bind:editOk="__e" bind:__l="__l"></jin-edit></view>

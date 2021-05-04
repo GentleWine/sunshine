@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,8H;AACAA,UAAU,CAACC,6BAAD,CAAV,C","file":"pages/hole/post/CertifiedUserRelease.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/hole/post/CertifiedUserRelease.vue'\ncreatePage(Page)"],"sourceRoot":""}

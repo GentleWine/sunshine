@@ -1,0 +1,82 @@
+.all{
+	display: flex;
+	flex-flow: column nowrap;
+	flex: 1;
+	min-height: 100vh;
+	background-color: #F7F6EE;
+	align-content: space-around;
+	align-self: flex-end;
+}
+
+/*顶部样式title*/
+.title{
+	display: inline-flex;
+	flex-flow: row nowrap;
+	flex:2;
+	background-color: rgba(206, 255, 206,1);
+}
+/*主题样式total*/
+.total{
+	display: inline-flex;
+	flex-flow: column nowrap;
+	flex: 12;
+	background-color: rgba(242, 242, 242,1);
+}
+/*底部样式indo*/
+.indo{
+	display: inline-flex;
+	flex-flow: row nowrap;
+	flex: 0.1;
+	max-height: 0.5vh;
+	justify-content: space-around;
+	background-color: rgba(248, 248, 248,1);
+	color: rgba(118, 115, 115,1);
+	text-align: center;
+	font-family: Roboto;
+	border: 0.5vh solid rgba(248, 248, 248,1);
+}
+/*顶部图标-属性bgimg*/
+.bgimg{
+	flex: 2;
+	background-color: rgba(16, 16, 16,1);
+}
+/*顶部图标-活动in*/
+.in{
+	flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	align-self: center;
+}
+/*顶部图标-文章passage*/
+.passage{
+	flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	align-self: center;
+}
+/*顶部图标-订阅subscribe*/
+.subscribe{
+	flex: 2.5;
+	color: rgba(16, 16, 16,1);
+	font-size: 2.5vh;
+	text-align: center;
+	font-family: PingFangSC-regular;
+	align-self: center;
+}
+/*顶部图标-搜索search*/
+.serach{
+	background-image: url(@/SCSS-picture/search.svg);
+	flex: 2;
+	background-color: rgba(16, 16, 16,1);
+}
+/*顶部空白*/
+.titleblank1{
+	flex: 1;
+}
+.titleblank2{
+	flex: 4;
+}

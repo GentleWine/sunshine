@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我有一壶酒，你有你的故事吗",
+  "usingComponents": {
+    "jin-edit": "/components/jin-edit/jin-edit"
+  }
+}

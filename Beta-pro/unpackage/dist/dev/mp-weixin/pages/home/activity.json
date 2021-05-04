@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "活动",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar"
+  }
+}
