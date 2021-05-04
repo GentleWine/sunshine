@@ -2,7 +2,7 @@ spring:
   datasource:
     username: gentlewine
     password: "a13458586073"
-    url: jdbc:mysql://localhost:3306/sunshine
+    url: jdbc:mysql://49.235.25.29:3306/sunshine
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true

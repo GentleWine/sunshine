@@ -3,7 +3,10 @@ package com.sunshine.alpha.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.sunshine.alpha.POJO.Artiinf;
 import com.sunshine.alpha.entity.Post;
+import com.sunshine.alpha.entity.Remark;
+import com.sunshine.alpha.entity.Reply;
 import com.sunshine.alpha.repository.PostDAO;
+import com.sunshine.alpha.repository.RemarkDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -20,6 +23,8 @@ import java.util.List;
 public class Article {
     @Autowired
     PostDAO postDAO;
+    @Autowired
+    RemarkDAO remarkDAO;
 
     //获取指定用户的文章
     //@Param: phone为所请求的用户手机号 type为文章的类型 page为当前页(从零开始） size为页大小
@@ -68,8 +73,20 @@ public class Article {
     @GetMapping(value = "/article/reply")
     public JSONObject getarticlereply(@RequestParam("phone")String phone, @RequestParam("postname")String postname)
     {
-
-
+        try {
+            //the name is unique in user's folder
+            List<Remark> replies = remarkDAO.findByUserPhoneAndPostContent(phone, postname);
+            JSONObject json = new JSONObject();
+            json.put("status", "success");
+            json.put("result", replies);
+            return json;
+        }
+        catch (Exception e)
+        {
+            JSONObject json = new JSONObject();
+            json.put("status","fail");
+            json.put("error",e.getMessage());
+            return json;
+        }
     }
-    //对指定的文章发起评论
 }

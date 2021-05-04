@@ -15,7 +15,7 @@ import org.hibernate.annotations.DynamicInsert;
 public class Test  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
 	private String username;

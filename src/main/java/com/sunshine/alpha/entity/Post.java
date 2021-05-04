@@ -17,7 +17,7 @@ import org.hibernate.annotations.DynamicInsert;
 public class Post  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
 	@Column(name = "user_phone")
@@ -25,7 +25,7 @@ public class Post  implements Serializable {
 
 	@Column(name = "user_email")
 	private String userEmail;
-    //文章的类型，1代表帖子，0代表博文
+
 	private boolean type;
 
 	private String title;
@@ -42,16 +42,15 @@ public class Post  implements Serializable {
 
 	private String tag3;
 
-	//浏览量
 	@Column(name = "PV")
 	private BigDecimal pv;
-	//点赞次数
+
 	@Column(name = "LT")
 	private BigDecimal lt;
-	//收藏次数
+
 	@Column(name = "NOC")
 	private BigDecimal noc;
-	//标记为哪种类型的文章
-	private char flag;
+
+	private String flag;
 
 }

@@ -11,20 +11,28 @@ import org.hibernate.annotations.DynamicInsert;
 @DynamicUpdate
 @Data
 @Entity
-@Table(name = "psytest")
-public class Psytest  implements Serializable {
+@Table(name = "remark")
+public class Remark  implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
-	private String url;
+	@Column(name = "user_phone")
+	private String userPhone;
 
-	private String type;
+	@Column(name = "user_email")
+	private String userEmail;
+
+	@Column(name = "post_content")
+	private String postContent;
+
+	private String content;
 
 	private java.util.Date time;
 
-	private String publisher;
+	@Column(name = "LT")
+	private Double lt;
 
 	private String flag;
 

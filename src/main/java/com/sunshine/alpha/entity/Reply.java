@@ -15,25 +15,25 @@ import org.hibernate.annotations.DynamicInsert;
 public class Reply  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
-	@Column(name = "user_phone")
-	private String userPhone;
-
-	@Column(name = "user_email")
-	private String userEmail;
-
-	@Column(name = "responder_phone")
-	private String responderPhone;
-
-	@Column(name = "responder_email")
-	private String responderEmail;
-
-	@Column(name = "post_content")
-	private String postContent;
+	@Column(name = "remark_id")
+	private Integer remarkId;
 
 	private String content;
+
+	@Column(name = "from_phone")
+	private String fromPhone;
+
+	@Column(name = "from_email")
+	private String fromEmail;
+
+	@Column(name = "to_phone")
+	private String toPhone;
+
+	@Column(name = "to_email")
+	private String toEmail;
 
 	private java.util.Date time;
 

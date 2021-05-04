@@ -15,7 +15,7 @@ import org.hibernate.annotations.DynamicInsert;
 public class User  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
 	private String nickname;
@@ -28,7 +28,8 @@ public class User  implements Serializable {
 
 	private String email;
 
-	//M代表男性 F代表女性 N代表保密
+	private Integer age;
+
 	private String sex;
 
 	private java.sql.Date birthday;
@@ -43,7 +44,6 @@ public class User  implements Serializable {
 
 	private String hobby3;
 
-	//以字节为单位
 	private Double space;
 
 	@Column(name = "fans_number")
@@ -52,9 +52,6 @@ public class User  implements Serializable {
 	@Column(name = "interest_number")
 	private Integer interestNumber;
 
-	//true代表未注销用户，false代表注销用户(非空约束)
 	private boolean flag;
-
-	private Integer age;
 
 }

@@ -15,7 +15,7 @@ import org.hibernate.annotations.DynamicInsert;
 public class Utt  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
 	@Column(name = "test_id")

@@ -15,7 +15,7 @@ import org.hibernate.annotations.DynamicInsert;
 public class Collections  implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
 	@Column(name = "post_content")
