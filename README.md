@@ -58,3 +58,7 @@
 ##### Tree
 
 (to be thought twice)
+
+### API manual (guideline)
+
+​	If you have any question about the function of each url with its request method, please skip to guideline.md.
